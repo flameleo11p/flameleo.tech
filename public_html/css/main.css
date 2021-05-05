@@ -18,7 +18,8 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: black;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  margin-top: -.2em;
 }
 
 .navbar .logo span {
@@ -30,6 +31,7 @@ body {
 }
 
 .navbar .container {
+  margin-top: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -280,7 +282,7 @@ nav a:hover {
     border: 3px solid var(--primary-color);
     font-weight: bold;
     border-radius: 5em;
-    margin-top: -.2em;
+    margin-top: -.25em;
   }
   .navbar nav li.go-premium-cta a:hover {
     background: var(--primary-color);
