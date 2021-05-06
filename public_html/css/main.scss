@@ -3,6 +3,9 @@
 
 :root {
   --primary-color: #007af3;
+  --secondary-color: #006bd6;
+  // --primary-color: #e44;
+  // --secondary-color: #d33;
 }
 
 body {
@@ -158,7 +161,7 @@ ul.features-list {
   ul {
     
     li {
-      background: #006bd6;
+      background: var(--secondary-color);
       text-align: center;
       padding: 2em 1em;
 
@@ -170,7 +173,7 @@ ul.features-list {
       img {
         width: 5em;
         height: 5em;
-        border: 5px solid #006bd6;
+        border: 5px solid var(--secondary-color);
 
         border-radius: 50%;
         margin-top: -5em;
