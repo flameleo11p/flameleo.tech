@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 
 :root {
-  // --primary-color: #007af3;
-  // --secondary-color: #006bd6;
+  --primary-color: #007af3;
+  --secondary-color: #006bd6;
   
-  --primary-color: #e44;
-  --secondary-color: #d33;
+  // --primary-color: #e44;
+  // --secondary-color: #d33;
 }
 
 body {
@@ -448,28 +448,27 @@ nav {
 
 }
 
-@media only screen and (min-width: 1450px) {
-  section.features-section {
-    &:before{
-      content: '';
-      position: absolute;
-      left: 0;
-      top: -4em;
-      width: 10%;
-      height: 20em;
-      background: var(--primary-color);
-    }
+// 小图形挂件
+// @media only screen and (min-width: 1450px) {
+//   section.features-section {
+//     &:before{
+//       content: '';
+//       position: absolute;
+//       left: 0;
+//       top: -4em;
+//       width: 10%;
+//       height: 20em;
+//       background: var(--primary-color);
+//     }
 
-    &:after{
-      content: '';
-      position: absolute;
-      left: 4.5em;
-      top: 2em;
-      width: 200px;
-      height: 20em;
-      background: url('../images/dots.svg') no-repeat;
-    }
-
-    
-  }
-}
+//     &:after{
+//       content: '';
+//       position: absolute;
+//       left: 4.5em;
+//       top: 2em;
+//       width: 200px;
+//       height: 20em;
+//       background: url('../images/dots.svg') no-repeat;
+//     }
+//   }
+// }
