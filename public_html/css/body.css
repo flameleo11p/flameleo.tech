@@ -20,4 +20,13 @@
   margin-top: 2em;
   margin-bottom: 3em;
 }
+
+.footer {
+  background-color: #333;
+  text-align: center;
+}
+
+.footer a {
+  color: #eee;
+}
 /*# sourceMappingURL=body.css.map */
